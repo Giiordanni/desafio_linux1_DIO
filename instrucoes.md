@@ -1,14 +1,18 @@
 
-# Instruções para rodar os scripts na máquina
+# Instruções para Executar os Scripts
 
-### Se a extensão for .sh você precisa dar a permissão de esecução. (Sabe que tem permissão de execução quando fica amarelo)
-Para permitir, precisa do comando:
-	chmod +x nome_do_diretorio.sh
+Este guia explica como configurar e executar scripts no formato `.sh` na sua máquina. Siga as etapas abaixo para garantir a execução correta.
 
+---
 
-### Para rodar a permissão, basta fazer o seguinte comando:
-	./nome_do_diretorio.sh
+## 🛠️ 1. Conceder Permissão de Execução
 
+Antes de executar um script `.sh`, é necessário garantir que ele tenha permissão de execução. Você pode identificar scripts com permissão de execução porque eles aparecem destacados em **amarelo** no terminal (em sistemas Linux/Unix).
 
+### **Comando para Conceder Permissão**
 
-## Assim irá rodar tudo e o projeto estará finalizad0
+No terminal, execute o seguinte comando para conceder permissão de execução ao script:
+
+```bash
+chmod +x nome_do_arquivo.sh
+
